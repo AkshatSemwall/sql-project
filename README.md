@@ -158,24 +158,6 @@ GROUP BY p.product_id, p.product_name, p.product_category
 ORDER BY revenue DESC;
 ```
 
----
-
-## 📁 Project Structure
-
-```
-sql-project/
-├── schema.sql          # Database schema and table creation
-├── data.sql            # Data generation and population
-├── queries/
-│   ├── basic_queries.sql
-│   ├── advanced_queries.sql
-│   └── analytics_queries.sql
-├── README.md           # This file
-└── LICENSE
-```
-
----
-
 ## 🎯 Use Cases
 
 - **Learning**: Perfect for SQL beginners to advanced learners
