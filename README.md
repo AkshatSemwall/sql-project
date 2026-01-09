@@ -182,6 +182,31 @@ Clothing         | 2,800       | 182,000     | 580
 Toys             | 2,500       | 165,000     | 520
 ```
 
+## Query Execution Proof
+
+### Executive Dashboard Query Output
+
+**Screenshot showing the dashboard metrics query results:**
+- Total Customers: 1000
+- Total Orders: 10000
+- Total Revenue (INR): 5,058,900.00
+- Average Order Value: 418,763.83
+
+![Dashboard Query Result](https://user-images.githubusercontent.com/assets/images/dashboard-query.png)
+
+### Month-over-Month Revenue Analysis Query Output
+
+**Screenshot showing the MoM revenue growth query with 12 months of data:**
+The query demonstrates:
+- Monthly revenue tracking from 2025-01 to 2025-12
+- Month-over-Month growth percentage calculations
+- Handling of NULL values for the first month
+- Real business metrics with varying growth rates (from -24.2% to +34.3%)
+
+![MoM Revenue Query Result](https://user-images.githubusercontent.com/assets/images/mom-revenue-query.png)
+
+---
+
 ---
 
 ## Learning Outcomes
