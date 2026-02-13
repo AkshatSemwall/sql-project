@@ -150,7 +150,7 @@ SELECT 'DATA VALIDATION' AS test,
        (SELECT COUNT(*) FROM demo1_order_items) AS items,
        (SELECT COUNT(DISTINCT order_id) FROM demo1_order_items) AS unique_orders,
        (SELECT COUNT(*) FROM demo1_monthly_revenue) AS reporting_months;
--- Copy-paste this single query after script execution:
+
 SELECT ' E-COMMERCE ANALYTICS' AS title,
        1000 AS total_customers,
        10000 AS total_orders,
@@ -160,7 +160,6 @@ SELECT ' E-COMMERCE ANALYTICS' AS title,
        ROUND((SELECT AVG(total_revenue) FROM demo1_monthly_revenue),2) AS avg_order_value;
 
 
--- Copy-paste this (interview gold):
 SELECT m1.order_month, m1.total_revenue, m1.total_orders,
        COALESCE(m2.total_revenue,0) AS prev_month_revenue,
        ROUND((m1.total_revenue-COALESCE(m2.total_revenue,0))*100.0/
