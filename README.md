@@ -3,10 +3,10 @@
 ![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)
 ![Role](https://img.shields.io/badge/Role-Data%20Engineer%20%2F%20BI%20Architect-blue)
 
-## 🎯 Business Objective
+##  Business Objective
 Transforming raw transactional data from an E-Commerce platform into a high-performance **Enterprise Data Warehouse**. This project provides actionable business insights such as **Customer Lifetime Value (LTV)**, **RFM Segmentation**, and **Cohort Retention**, enabling data-driven decision-making for marketing and executive leadership.
 
-## 🏗️ Technical Architecture
+##  Technical Architecture
 The system follows a **Medallion Architecture**, ensuring data quality and scalability:
 
 - **Raw Layer**: Immutable source data ingestion from multiple channels (Web, App, Affiliate).
@@ -18,7 +18,7 @@ The system follows a **Medallion Architecture**, ensuring data quality and scala
 - **Fact Tables**: `fact_orders`, `fact_order_items`, `fact_payments`.
 - **Dimensions**: `dim_customers`, `dim_products`, `dim_date`, `dim_vendors`.
 
-## 🚀 Advanced Analytics Features
+##  Advanced Analytics Features
 - **RFM Segmentation**: Automated classification of customers into "Champions", "Loyal", "At Risk", etc., based on Recency, Frequency, and Monetary scores.
 - **Monthly Cohort Analysis**: Tracking user retention over time based on their signup month.
 - **Customer LTV**: Predictive analytics logic to identify high-value long-term customers.
@@ -28,7 +28,7 @@ The system follows a **Medallion Architecture**, ensuring data quality and scala
 - **Advanced SQL**: Window Functions, CTEs, Surrogate Keys, Stored Procedures.
 - **Optimization**: Indexing Strategy, Partitioning Design, and Materialized Aggregations for 100x query speed.
 
-## 📁 Project Structure
+##  Project Structure
 ```text
 /raw          -> Raw ingestion scripts
 /staging      -> Data cleaning & standardization
@@ -77,5 +77,3 @@ ORDER BY customer_count DESC;
 - GitHub: [@AkshatSemwall](https://github.com/AkshatSemwall)
 - Location: Dehradun, Uttarakhand, India
 
----
-*Created for Senior Data Engineering Portfolios.*
